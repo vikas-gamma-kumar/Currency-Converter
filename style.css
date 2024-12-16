@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+background-image: url(bodyimage1.webp);
+background-size: cover;
+}
+
+.container {
+background-image: url(Gemini_Generated_Image_r6cm73r6cm73r6cm.jpeg);
+background-size: cover;
+  padding: 2rem;
+  border-radius: 2rem;
+
+  min-height: 43vh;
+  width: 40vh; 
+
+}
+
+.container:hover {
+  /* transform: scale(1.05) rotateY(10deg);  */
+}
+
+h1 {
+
+
+color: #f0f0f0;
+  margin-bottom: 1.5rem; 
+  text-align: center;
+  width: 100%;
+
+
+}
+
+
+form select,button,input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+.from {
+  font-size: 1.2rem;
+
+
+}
+.to{
+  font-size: 1.2rem; 
+
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  */
+}
+.amount {
+  margin-bottom: 1rem; 
+  font-size: 1.4rem; 
+ 
+}
+.amount p{
+
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+
+.amount label {
+  font-size: 1.25rem; 
+  font-weight: bold; 
+  margin-bottom: 3rem; 
+}
+
+.amount input {
+  width: 100%;
+
+  border-radius: 0.6rem; 
+  height: 2rem;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+
+  box-shadow: 3px 3px 5px rgb(128, 255, 255);
+
+}
+
+.amount input:hover{
+
+  box-shadow: 3px 3px 5px rgb(242, 255, 67);
+}
+
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 7rem; 
+  border-radius: 0.6rem;
+  
+  box-shadow: 3px 3px 5px rgb(128, 255, 255);
+
+  /* transition: background-color 0.3s, transform 0.3s;  */
+}
+
+.select-container:hover {
+
+
+  box-shadow: 3px 3px 5px rgb(250, 117, 255);
+ 
+}
+
+.select-container img {
+  max-width: 3rem; 
+}
+
+.select-container select {
+  height: 40px;
+  cursor: pointer;
+}
+
+.msg {
+  margin: 2.3rem 0 2.3rem 0;
+  text-align: center;
+  background: white;
+  border-radius: 0.6rem;
+  font-size: 1.3rem; 
+  box-shadow: 3px 3px 5px rgb(128, 255, 255);
+
+
+
+
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  */
+}
+.msg:hover {
+
+}
+i.fa-solid.fa-arrow-right-arrow-left {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius:10px;
+  transition: transform 0.3s ease-in-out; */
+  
+  margin-top: 25px;
+}
+
+
+i.fa-solid.fa-arrow-right-arrow-left:hover {
+
+}
+
+
+form button {
+  height: 3rem;
+  background-color: rgb(0, 204, 0);
+  color: white;
+  font-style: oblique;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s; 
+
+  box-shadow: 3px 3px 5px rgb(128, 255, 255);
+}
+
+form button:hover {
+
+
+  box-shadow: 3px 3px 5px rgb(255, 139, 230);
+ 
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown i {
+  font-size: 2rem;
+  margin: 0 1rem; 
+}
+
+.dropdown .from,
+.dropdown .to {
+  flex: 1;
+  text-align: center;
+}
+
+.dropdown label {
+  font-size: 1.25rem; 
+  margin-bottom: 0.5rem; 
+}
